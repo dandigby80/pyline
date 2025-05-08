@@ -11,5 +11,8 @@
     - Added first file to linux folder: 01-terminal-basics.md
     - Added cheatsheet.md to linux folder
     - Started learning about the terminal, shell and kernal
+    - Started learning variables and data types in Python
 
 ---
+
+
