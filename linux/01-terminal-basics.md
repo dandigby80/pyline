@@ -23,4 +23,20 @@ The kernel is a program that sits at the core of the Linux Operating System that
 
 So our interaction with the kernel starts first with commands we enter using our keyboard in the terminal which are then translated by the shell and passed down to the kernel which then takes those translated commands and acts upon them to make changes to the Linux system. Powerful when you think about it!
 
+## Navigation and File Operations:
 
+### Understanding the File System Hierarchy:
+
+The file system hierarchy or sometimes called the file system tree is the method in which a unix-like system organises its files and directories. The first directory in the file system is the 'root' directory. Every other file or directory branches out from the root directory (hence the 'tree' name). Linux also has a single file system tree - all storage devices are mounted at various points on the tree where the user chooses, they don't have separate file trees like a windows based system.
+
+When we begin a linux system we are always at our home directory. From here we can traverse the tree into any directory or sub-directory at our will. At any point on the tree we are always inside a directory, wether it be our home directory or some other directory - we will always be in a directory which is called the 'current working directory'. The linux system can contain hundreds of directories so we need to know where we are on the tree quickly - this where our first command comes in handy - 'print working directory'.
+
+- pwd - print working directory
+
+When we log into a linux system we are usually placed in our home directory, this is the only place a normal user can make changes or save and delete files. Now we know we are in a directory and we can use the 'pwd' command to print the working directory we are in, we would now like to know what is inside that directory. This is where the 'ls' command comes in handy. The 'ls' command lists all the files and directories in the current working directory.
+
+- ls - list (or list storage)
+
+Ok, so we know which directory we are in and what is inside that directory - how do we move around and go into another directory? That is where the 'cd' command comes in. 'cd' is change directory and we can use this and then the name of the directory to jump into that directory.
+
+- cd - change directory
